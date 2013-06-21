@@ -10,9 +10,9 @@ This code is completly based on the "getimage" Aldebaran's example [1]
 and on the EyeTracking algorithm implemented by Tristam Hume [2] based
 on the paper "Accurate eye centre localisation by means of gradients" [3]
 
-[1] http://www.aldebaran-robotics.com/documentation/dev/cpp/examples/vision/getimage/getimage.html
-[2] http://thume.ca/projects/2012/11/04/simple-accurate-eye-center-tracking-in-opencv/
-[3] Timm and Barth. Accurate eye centre localisation by means of gradients.
+* [1] http://www.aldebaran-robotics.com/documentation/dev/cpp/examples/vision/getimage/getimage.html
+* [2] http://thume.ca/projects/2012/11/04/simple-accurate-eye-center-tracking-in-opencv/
+* [3] Timm and Barth. Accurate eye centre localisation by means of gradients.
     In Proceedings of the Int. Conference on Computer Theory and Applications (VISAPP),
     volume 1, pages 125-130, Algarve, Portugal, 2011. INSTICC.
 
@@ -24,9 +24,9 @@ Run the code
 ============
 
 To test the code, you need:
--> Aldebaran's SDK
--> OpenCV 2.4 (I suppouse it also works with OpenCV 2.3
--> NAO Robot, it is not provided with this code :-)
+* Aldebaran's SDK
+* OpenCV 2.4 (I suppouse it also works with OpenCV 2.3
+* NAO Robot, it is not provided with this code :-)
 
 Blog's post
 ===========
@@ -34,4 +34,5 @@ Blog's post
 http://abitworld.com/eye-tracking-and-nao-robot/
 
 Manuel Martin <mmartinortiz@gmail.com>
+
 A Bit World < abitworld.com >
