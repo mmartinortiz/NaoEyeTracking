@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="NaoEyeTracking" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\.cache\;CMake Files\..\..\..\.cache\qi\;CMake Files\..\..\..\.cache\qi\toolchains\;CMake Files\..\..\..\.cache\qi\toolchains\naorobot\;CMake Files\..\..\devtools\;CMake Files\..\..\devtools\qibuild\;CMake Files\..\..\devtools\qibuild\cmake\;CMake Files\..\..\devtools\qibuild\cmake\qibuild\;CMake Files\..\..\devtools\qibuild\cmake\qibuild\internal\;CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alcommon\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alcommon-internal\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alsoap\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alvalue\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alerror\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\tinyxml\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\rttools\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\qi\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\althread\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alvision\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alextractor\;CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alproxies\;CMake Files\build-naorobot\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="NaoEyeTracking">
+         <Option output="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/sdk/bin/NaoEyeTracking" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/mmartin/nao/devtools/naoqi-sdk-1.14.3-linux64/include" />
+            <Add directory="/home/mmartin/nao/devtools/naoqi-sdk-1.14.3-linux64/include/alsoap" />
+            <Add directory="/home/mmartin/nao/devtools/naoqi-sdk-1.14.3-linux64/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 NaoEyeTracking" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="NaoEyeTracking/fast">
+         <Option output="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/sdk/bin/NaoEyeTracking" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/mmartin/nao/devtools/naoqi-sdk-1.14.3-linux64/include" />
+            <Add directory="/home/mmartin/nao/devtools/naoqi-sdk-1.14.3-linux64/include/alsoap" />
+            <Add directory="/home/mmartin/nao/devtools/naoqi-sdk-1.14.3-linux64/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 NaoEyeTracking/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/findEyeCenter.cpp">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/findEyeCorner.cpp">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/findFunctions.cpp">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/helpers.cpp">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/main.cpp">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/constants.h">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/findEyeCenter.h">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/findEyeCorner.h">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/findFunctions.h">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/helpers.h">
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../../.cache/qi/toolchains/naorobot/toolchain-naorobot.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\.cache\qi\toolchains\naorobot\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/qibuild-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/general.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/log.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/set.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/subdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/find.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/flags.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/target.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/submodule.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/option.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/codegen.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/perf.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/gettext.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/internal/layout.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/internal/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/internal/glob.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/internal/autostrap.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/internal/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/internal/uselib.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boost-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boost_filesystem-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boostutils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boost_system-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boostutils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boost_thread-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boostutils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/pthread-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/dl-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/rt-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boost_signals-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boostutils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boost_program_options-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/boostutils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2_core-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2_highgui-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2_objdetect-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2_features2d-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2_flann-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2_imgproc-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/qibuild/cmake/qibuild/modules/opencv2utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\qibuild\cmake\qibuild\modules\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/alcommon/alcommon-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alcommon\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/alcommon-internal/alcommon-internal-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alcommon-internal\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/alsoap/alsoap-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alsoap\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/alvalue/alvalue-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alvalue\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/alerror/alerror-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alerror\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/tinyxml/tinyxml-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\tinyxml\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/rttools/rttools-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\rttools\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/qi/qi-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\qi\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/althread/althread-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\althread\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/alvision/alvision-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alvision\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/alextractor/alextractor-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alextractor\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/../../devtools/naoqi-sdk-1.14.3-linux64/share/cmake/alproxies/alproxies-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\devtools\naoqi-sdk-1.14.3-linux64\share\cmake\alproxies\" />
+      </Unit>
+      <Unit filename="/home/mmartin/nao/workspace/NaoEyeTracking/build-naorobot/dependencies.cmake">
+          <Option virtualFolder="CMake Files\build-naorobot\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
