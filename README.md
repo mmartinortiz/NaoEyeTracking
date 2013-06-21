@@ -1,7 +1,7 @@
 NaoEyeTracking
 ==============
 
-A port of the Tristan Hume's code to use Eye-Tracking with the Nao Robot's webcam
+A port of the <a href="https://github.com/trishume/eyeLike">Tristan Hume's code</a> to use Eye-Tracking with the Nao Robot's webcam
 
 This example demonstrates how to get images from the NAO robot remotely, detect
 the eye movement and how to display them on your screen using opencv.
